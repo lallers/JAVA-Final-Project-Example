@@ -1,0 +1,63 @@
+/*{
+    "configurations": [{
+            "type": "java",
+            "name": "CodeLens (Launch) - MonitorSystem",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "stopOnEntry": false,
+            "mainClass": "file_reader.MonitorSystem",
+            "args": "",
+            "projectName": "system-monitor"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MonitorSystem",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "stopOnEntry": false,
+            "mainClass": "system-monitor.MonitorSystem",
+            "args": "",
+            "projectName": "system-monitor"
+        }
+    ]
+}*/
+
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Driver",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "stopOnEntry": false,
+            "mainClass": "com.project.pve.Driver",
+            "args": "",
+            "projectName": "pve"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Driver",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "stopOnEntry": false,
+            "mainClass": "com.project.pve.Driver",
+            "args": "",
+            "projectName": "player-vs-enemy"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Driver",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "stopOnEntry": false,
+            "mainClass": "player-vs-enemy.Driver",
+            "args": "",
+            "projectName": "player-vs-enemy"
+        }
+    ]
+}
